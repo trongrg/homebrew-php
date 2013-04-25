@@ -130,7 +130,7 @@ INFO
 
   def apache_apxs
     if build.include? 'homebrew-apxs'
-      "#{HOMEBREW_PREFIX}/sbin/apxs"
+      "#{HOMEBREW_PREFIX}/bin/apxs"
     else
       '/usr/sbin/apxs'
     end
